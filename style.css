@@ -4,7 +4,7 @@
   --back: url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
   --charizard1: #fac;
   --charizard2: #ddccaa;
-  --charizardfront: url(https://postimg.su/image/L59SM3G6/Безымянный.png);
+  --charizardfront: url(https://postimg.su/image/bnS6ARwh/Безымянный.png);
   --pika1: #54a29e;
   --pika2: #a79d66;
   --pikafront: url(https://assets.codepen.io/13471/pikachu-gx.webp);
@@ -20,16 +20,16 @@
 
 .card {
 
-  width: 100.5vw;
+  width: 71.5vw;
   height: 100vw;
     // width: clamp(200px, 61vh, 18vw);
     // height: clamp(280px, 85vh, 25.2vw);
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 600px) {
     // width: 61vh;
     // height: 85vh;
     // max-width: 500px;
     // max-height: 700px;
-    width: clamp(20.9vw, 61vh, 18vw);
+    width: clamp(14.9vw, 61vh, 18vw);
     height: clamp(18vw, 85vh, 25.2vw);
   }
   
@@ -339,9 +339,9 @@ html, body {
   transform: translate3d(0,0,0.1px);
 }
 body {
-  color: black;
+  color: grey;
   background-color: #333844;
-  font-family: "Times New Roman", sans-serif;
+  font-family: "Heebo", sans-serif;
   text-align: center;
 }
 h1 {
